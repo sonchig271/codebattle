@@ -65,7 +65,9 @@ $fa-font-path: '/fonts';
 .bg-winner {
   background: $gold;
 }
-
+.bg-inherit {
+  background-color: inherit;
+}
 [data-player-type] {
   --flag-color: var(--white);
   background: linear-gradient(to top, var(--flag-color), var(--white) 15%);
